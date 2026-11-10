@@ -116,3 +116,6 @@ fail_under = 98
 
 [tool.coverage.html]
 directory = "htmlcov"
+
+[tool.setuptools.package-data]
+pynmeagps = ["*.pyi", "py.typed"]
